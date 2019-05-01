@@ -44,9 +44,12 @@ There are several models to consider here, it's worth thinking about these quest
   Most of this configuration is achieved in the Branch Protection rule setup on the repository: https://help.github.com/en/articles/configuring-protected-branches
 
 
-Further reading on Open Source contributions: https://github.com/todogroup/guides/blob/master/participating-in-open-source.md
+Further reading on Open Source contributions:
 
-### Code Owners
+ https://github.com/todogroup/guides/blob/master/participating-in-open-source.md
+
+### Code Ownership
+
 Set up a CODEOWNER file to define who is responsible for quality maintainence of the repository. This can also help to work out who is responsible for PRs and issues. More detail here: https://help.github.com/en/articles/about-code-owners
 
 
