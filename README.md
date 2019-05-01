@@ -19,12 +19,18 @@ ECS Digital firmly believes in producing and contributing to open source softwar
 
 ## I'm happy it's ok - what next?
 
+First make sure you have a good quality README guide in README.md in the root of your repository
+
+### Licensing
+
 Use an appropriate license - we use [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 Make sure this is in a file called LICENSE in the root of your project in GitHub
 
 ![apache 2.0 license summary](https://i1.wp.com/researchenterprise.org/wp-content/uploads/2016/09/github-apache.jpg)
 
-### Think about how to handle contributions
+### Contributors
+
+See below for guidance on contributions, whatever is decided must be documented in a file called CONTRIBUTING.MD in the root of the repository. [More guidance here](https://help.github.com/en/articles/setting-guidelines-for-repository-contributors)
 
 There are several models to consider here, it's worth thinking about these questions:
   
@@ -39,6 +45,10 @@ There are several models to consider here, it's worth thinking about these quest
 
 
 Further reading on Open Source contributions: https://github.com/todogroup/guides/blob/master/participating-in-open-source.md
+
+### Code Owners
+Set up a CODEOWNER file to define who is responsible for quality maintainence of the repository. This can also help to work out who is responsible for PRs and issues. More detail here: https://help.github.com/en/articles/about-code-owners
+
 
 
 ### Commit your code
