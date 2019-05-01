@@ -1,7 +1,7 @@
 # ECS Digital open source policy
 
 
-ECS Digital firmly believes in producing and contributing to open source software. Not only does it encourage scrutiny and improvements of the code we write, it also is good for the brand and our engineers. With this in mind we’ve tried to produce some guidelines to help decide if you can open source a project, and some of the practicalities of how.
+ECS Digital firmly believes in producing and contributing to open source software. Not only does it encourage scrutiny on and improvements to the code we write, it also is good for the brand and our engineers. With this in mind we’ve tried to produce some guidelines to help decide if you can open source a project, and some of the practicalities of how.
 
 ## Can I open source?
 
@@ -14,8 +14,7 @@ ECS Digital firmly believes in producing and contributing to open source softwar
     * Get agreement from the Project Manager / Delivery lead that we can open source it
   
 * Code being written in catch up weeks or during self-development
-    * Discuss with your line manager or practise lead
-
+    * Discuss with your line manager or practice lead
 
 
 ## I'm happy it's ok - what next?
@@ -25,5 +24,28 @@ Make sure this is in a file called LICENSE in the root of your project in GitHub
 
 ![apache 2.0 license summary](https://i1.wp.com/researchenterprise.org/wp-content/uploads/2016/09/github-apache.jpg)
 
-Do we also need people to ask get sign off? (Practice Lead opensource committee?)
+### Think about how to handle contributions
 
+There are several models to consider here, it's worth thinking about these questions:
+  
+  * Do you welcome people outside of our company to contribute code? If so, think about how you are going to support this:
+    * Do you want them to commit to branches and raise pull requests?
+    * How can approve merging back to master? 
+    * What quality checks need to be set up to validate?
+
+  Either way, you'll have to configure your repository in GitHub to support your desired model.
+
+  Most of this configuration is achieved in the Branch Protection rule setup on the repository: https://help.github.com/en/articles/configuring-protected-branches
+
+
+Further reading on Open Source contributions: https://github.com/todogroup/guides/blob/master/participating-in-open-source.md
+
+
+### Commit your code
+
+Create the repository on the Public ECS Digital GitHub https://github.com/ecsdigital and commit/push your code.
+
+## What next?
+Publisise your repository if you want people to have a look and contribute, depending on what you've open sourced this might be on the ECS Slack and/or externally
+
+Keep an eye on the repo and any pipelines you've configured and be prepared to help out people that want to contribute
