@@ -35,11 +35,11 @@ See below for guidance on contributions, whatever is decided must be documented 
 There are several models to consider here, it's worth thinking about these questions:
   
   * Do you welcome people outside of our company to contribute code? If so, think about how you are going to support this:
-    * Do you want them to commit to branches and raise pull requests?
-    * How can approve merging back to master? 
+    * Do you want them to [fork](https://help.github.com/en/articles/fork-a-repos) the repository and raise pull requests? 
+    * How will pull requests be reviewed, approved and merged?
     * What quality checks need to be set up to validate?
 
-  Either way, you'll have to configure your repository in GitHub to support your desired model.
+  In any case, you'll have to configure your repository in GitHub to support your desired model.
 
   Most of this configuration is achieved in the Branch Protection rule setup on the repository: https://help.github.com/en/articles/configuring-protected-branches
 
