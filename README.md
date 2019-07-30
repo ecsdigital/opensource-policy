@@ -12,9 +12,10 @@ ECS Digital firmly believes in producing and contributing to open source softwar
   
 * Is this code part of a project from which ECS expects to make money?
     * Get agreement from the Project Manager / Delivery lead that we can open source it
+    * Run it past Andy Cureton or Philipp Blum 
   
 * Code being written in catch up weeks or during self-development
-    * Discuss with your line manager or practice lead
+    * Run it past Andy Cureton or Philipp Blum 
 
 
 ## I'm happy it's ok - what next?
